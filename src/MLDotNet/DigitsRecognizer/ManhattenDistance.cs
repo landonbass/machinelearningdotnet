@@ -12,7 +12,7 @@ namespace DigitsRecognizer
             var length = pixels1.Length;
             var distance = 0;
             for (var i = 0; i < length; i++)
-                distance += Math.Abs(pixels1[1] - pixels2[1]);
+                distance += Math.Abs(pixels1[i] - pixels2[i]);
 
             return distance;
         }

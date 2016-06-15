@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitsRecognizer", "DigitsRecognizer\DigitsRecognizer.csproj", "{4194CA86-6765-4A6C-8A79-275C259B04EE}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "DigitsRecognizerFS", "DigitsRecognizerFS\DigitsRecognizerFS.fsproj", "{17EF36E1-B4DD-4C31-9527-9736E1FEB15D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4194CA86-6765-4A6C-8A79-275C259B04EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4194CA86-6765-4A6C-8A79-275C259B04EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4194CA86-6765-4A6C-8A79-275C259B04EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17EF36E1-B4DD-4C31-9527-9736E1FEB15D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17EF36E1-B4DD-4C31-9527-9736E1FEB15D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17EF36E1-B4DD-4C31-9527-9736E1FEB15D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17EF36E1-B4DD-4C31-9527-9736E1FEB15D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
