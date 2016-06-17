@@ -11,6 +11,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "HamOrSpam", "HamOrSpam\HamO
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TypeProviders", "TypeProviders\TypeProviders.fsproj", "{5E220288-8093-46FC-A2FF-92E3075D6A50}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "OfBikesAndMen", "OfBikesAndMen\OfBikesAndMen.fsproj", "{DB47D222-B253-42E5-AD8F-A766264736C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{5E220288-8093-46FC-A2FF-92E3075D6A50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E220288-8093-46FC-A2FF-92E3075D6A50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E220288-8093-46FC-A2FF-92E3075D6A50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB47D222-B253-42E5-AD8F-A766264736C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB47D222-B253-42E5-AD8F-A766264736C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB47D222-B253-42E5-AD8F-A766264736C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB47D222-B253-42E5-AD8F-A766264736C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
