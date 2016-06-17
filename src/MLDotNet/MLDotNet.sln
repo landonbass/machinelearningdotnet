@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitsRecognizer", "DigitsR
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "DigitsRecognizerFS", "DigitsRecognizerFS\DigitsRecognizerFS.fsproj", "{17EF36E1-B4DD-4C31-9527-9736E1FEB15D}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "HamOrSpam", "HamOrSpam\HamOrSpam.fsproj", "{CB5076BA-CA93-4724-8160-69C20BEBC919}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TypeProviders", "TypeProviders\TypeProviders.fsproj", "{5E220288-8093-46FC-A2FF-92E3075D6A50}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{17EF36E1-B4DD-4C31-9527-9736E1FEB15D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17EF36E1-B4DD-4C31-9527-9736E1FEB15D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17EF36E1-B4DD-4C31-9527-9736E1FEB15D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB5076BA-CA93-4724-8160-69C20BEBC919}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB5076BA-CA93-4724-8160-69C20BEBC919}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB5076BA-CA93-4724-8160-69C20BEBC919}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB5076BA-CA93-4724-8160-69C20BEBC919}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E220288-8093-46FC-A2FF-92E3075D6A50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E220288-8093-46FC-A2FF-92E3075D6A50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E220288-8093-46FC-A2FF-92E3075D6A50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E220288-8093-46FC-A2FF-92E3075D6A50}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
