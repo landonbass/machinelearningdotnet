@@ -33,3 +33,26 @@ let baseline =
     let avg = data |> Seq.averageBy (fun x -> float x.Cnt)
     data |> Seq.averageBy (fun x -> abs(float x.Cnt - avg))
 
+type Obs = Data.Row
+
+let model (theta0, theta1) (obs: Obs) =
+    theta0 + theta1 * (float obs.Instant)
+
+let model0 = model (4504., 0.)
+let model1 = model (6000., -4.5)
+
+Chart.Combine [
+    Chart.Line count
+    Chart.Line [for obs in data -> model0 obs]
+    Chart.Line [for obs in data -> model1 obs]
+]
+
+type Model = Obs -> float
+let cost (data: Obs seq) (m:Model) =
+    data
+    |> Seq.sumBy (fun x -> pown (float x.Cnt - m x) 2)
+    |> sqrt
+
+let overallCost = cost data
+overallCost model0 |> printfn "model0: %.0f"
+overallCost model1 |> printfn "model1: %.0f"
