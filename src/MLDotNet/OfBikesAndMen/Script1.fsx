@@ -44,3 +44,19 @@ let estimate (Y:Vec) (X:Mat) =
     (X.Transpose() * X).Inverse() * X.Transpose() * Y
 
 
+let seed = 314159
+let rng = System.Random(seed)
+
+//fisher yates
+let shuffle (arr: 'a[]) =
+    let arr = Array.copy arr
+    let l = arr.Length
+    for i in (l - 1) .. -1 .. 1 do
+        let temp = arr.[i]
+        let j = rng.Next(0, i+1)
+        arr.[i] <- arr.[j]
+        arr.[j] <- temp
+    arr
+
+let myArray = [| 1..5 |]
+myArray |> shuffle
