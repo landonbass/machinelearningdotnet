@@ -60,3 +60,13 @@ let shuffle (arr: 'a[]) =
 
 let myArray = [| 1..5 |]
 myArray |> shuffle
+
+let training, validation =
+    let shuffled =
+        data 
+        |> Seq.toArray
+        |> shuffle
+    let size =
+        0.7 * float (Array.length shuffled) |> int
+    shuffled.[..size],
+    shuffled.[size+1..]
