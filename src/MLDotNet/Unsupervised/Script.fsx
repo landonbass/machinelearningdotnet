@@ -84,3 +84,11 @@ observations1
 |> Seq.countBy (fun obs -> classifier1 obs)
 |> Seq.iter (fun (clusterId, count) ->
     printfn "cluster %i: %i elements" clusterId count)
+
+Chart.Combine [
+    for (id,profile) in clusters1 ->
+        profile
+        |> Seq.mapi (fun i value -> headers.[i], value)
+        |> Chart.Bar
+]
+|> fun chart -> chart.WithXAxis(LabelStyle=labels)
